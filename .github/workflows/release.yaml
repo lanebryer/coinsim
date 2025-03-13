@@ -29,4 +29,4 @@ jobs:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         goos: ${{ matrix.goos }}
         goarch: ${{ matrix.goarch }}
-        goversion: "https://go.dev/dl/go1.24.1.linux-amd64.tar.gz"
+        goversion: "1.24.1"
